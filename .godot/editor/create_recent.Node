@@ -1,3 +1,8 @@
+Camera2D
+TileMapLayer
+TileMap
+CollisionShape2D
+StaticBody2D
 Node
 RichTextLabel
 Button

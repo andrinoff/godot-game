@@ -5,3 +5,5 @@ res://Scripts/Controls/samurai.gd
 res://Scenes/contorl_learning.tscn
 res://Scripts/start_screen/button.gd
 res://Scenes/control_learning.tscn
+res://Scenes/player.tscn
+res://Scenes/game.tscn
