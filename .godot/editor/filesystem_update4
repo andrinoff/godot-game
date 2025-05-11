@@ -1,0 +1,5 @@
+res://Scenes/start_screen.tscn
+res://Scripts/start_screen/samurai.gd
+res://Scenes/level1.tscn
+res://Scripts/start_screen/play_handler.gd
+res://Scripts/samurai.lua
