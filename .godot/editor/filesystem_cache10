@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746959048
+::res://::1746995999
 icon.svg::CompressedTexture2D/CompressedTexture2D::8482224345807885929::1746885986::1746885992::1::::<><><>0<>0<>ec7519ee2cc2ea2c274b3913f9ebf7ec<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile/TextFile::-1::1746988287::0::1::::<><><>0<>0<><>::
 ::res://addons/::1746892060
 ::res://addons/lua-gdextension/::1746892060
 CHANGELOG.md::TextFile/TextFile::-1::1746892020::0::1::::<><><>0<>0<><>::
@@ -13,13 +14,18 @@ plugin.cfg::TextFile/TextFile::-1::1746892020::0::1::::<><><>0<>0<><>::
 plugin.gd::GDScript/GDScript::6349614624740791647::1746892020::0::1::::<>EditorPlugin<><>0<>1<><>::
 README.md::TextFile/TextFile::-1::1746892020::0::1::::<><><>0<>0<><>::
 ::res://addons/lua-gdextension/build/::1746892060
-::res://Scenes/::1746911161
-start_screen.tscn::PackedScene::5833266236491380236::1746911156::0::1::::<><><>0<>0<><>::uid://cjya6sd5ppt5k::::res://Sprites/Samurai/Idle.png<>uid://dc7r6gq3x0kvy::::res://Sprites/Samurai/Walk.png<>uid://bv73ndnwypx71::::res://Sprites/Samurai/Jump.png<>uid://cvo1b3btshuiy::::res://Scripts/start_screen/samurai.gd
-::res://Scripts/::1746911103
-samurai.lua::LuaScript::8855850134912277626::1746892178::0::1::::<><><>0<>0<><>::
-::res://Scripts/start_screen/::1746911103
-animation.gd::GDScript::946688689656352799::1746909305::0::1::::<>RefCounted<><>0<>0<><>::
-samurai.gd::GDScript::6277290273033786096::1746911100::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+::res://Fonts/::1746989472
+ZENLITH Trial.otf::FontFile/FontFile::9110618048462053967::1746989463::1746989467::1::::<><><>0<>0<>d936ab64703d934c6218e410a30599de<>res://.godot/imported/ZENLITH Trial.otf-3709d11843681276fa82554fd439668e.fontdata::
+::res://Scenes/::1746995999
+contorl_learning.tscn::PackedScene::7413451470240051463::1746995999::0::1::::<><><>0<>0<><>::uid://cjya6sd5ppt5k::::res://Sprites/Samurai/Idle.png<>uid://bv73ndnwypx71::::res://Sprites/Samurai/Jump.png<>uid://dc7r6gq3x0kvy::::res://Sprites/Samurai/Walk.png<>uid://dggxa8pjkueey::::res://Scripts/Controls/samurai.gd<>uid://d22isvxw7qo2b::::res://Fonts/ZENLITH Trial.otf
+start_screen.tscn::PackedScene::5833266236491380236::1746995999::0::1::::<><><>0<>0<><>::uid://cjya6sd5ppt5k::::res://Sprites/Samurai/Idle.png<>uid://dc7r6gq3x0kvy::::res://Sprites/Samurai/Walk.png<>uid://bv73ndnwypx71::::res://Sprites/Samurai/Jump.png<>uid://b0b127mwsi0q6::::res://Scripts/start_screen/samurai_start.gd<>uid://f8o1ucyq4qh8::::res://Scripts/start_screen/button.gd<>uid://d22isvxw7qo2b::::res://Fonts/ZENLITH Trial.otf
+::res://Scripts/::1746995999
+::res://Scripts/Controls/::1746995999
+samurai.gd::GDScript::7594179627131178832::1746995999::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+::res://Scripts/start_screen/::1746995999
+button.gd::GDScript::419966207283994167::1746995994::0::1::::<>Button<><>0<>0<><>::
+samurai.gd::GDScript/GDScript::4542658864074630993::1746989675::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+samurai_start.gd::GDScript/GDScript::4144834710954165571::1746989803::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 ::res://Sprites/::1746891014
 COUPON.png::CompressedTexture2D/CompressedTexture2D::2651973145893022232::1686647666::1746891003::1::::<><><>0<>0<>d16916fb75e008e8b3d22b6feda56a84<>res://.godot/imported/COUPON.png-c745da73506ec9da829a6f9025e8bad7.ctex::
 Font.txt::TextFile/TextFile::-1::1664542180::0::1::::<><><>0<>0<><>::

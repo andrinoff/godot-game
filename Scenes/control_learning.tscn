@@ -1,117 +1,116 @@
-[gd_scene load_steps=34 format=3 uid="uid://cpdxbpk4v0i25"]
+[gd_scene load_steps=34 format=3 uid="uid://ddvepy040fjch"]
 
-[ext_resource type="Texture2D" uid="uid://cjya6sd5ppt5k" path="res://Sprites/Samurai/Idle.png" id="1_tx5wa"]
-[ext_resource type="Texture2D" uid="uid://dc7r6gq3x0kvy" path="res://Sprites/Samurai/Walk.png" id="2_60ddj"]
-[ext_resource type="Texture2D" uid="uid://bv73ndnwypx71" path="res://Sprites/Samurai/Jump.png" id="3_5e717"]
-[ext_resource type="Script" uid="uid://b0b127mwsi0q6" path="res://Scripts/start_screen/samurai_start.gd" id="4_mtlf8"]
-[ext_resource type="Script" uid="uid://f8o1ucyq4qh8" path="res://Scripts/start_screen/button.gd" id="5_mtlf8"]
-[ext_resource type="FontFile" uid="uid://d22isvxw7qo2b" path="res://Fonts/ZENLITH Trial.otf" id="5_nqnrp"]
+[ext_resource type="Texture2D" uid="uid://cjya6sd5ppt5k" path="res://Sprites/Samurai/Idle.png" id="1_767dv"]
+[ext_resource type="Texture2D" uid="uid://bv73ndnwypx71" path="res://Sprites/Samurai/Jump.png" id="2_4b2ik"]
+[ext_resource type="Texture2D" uid="uid://dc7r6gq3x0kvy" path="res://Sprites/Samurai/Walk.png" id="3_qbcxa"]
+[ext_resource type="Script" uid="uid://dggxa8pjkueey" path="res://Scripts/Controls/samurai.gd" id="4_cdjm1"]
+[ext_resource type="FontFile" uid="uid://d22isvxw7qo2b" path="res://Fonts/ZENLITH Trial.otf" id="5_ncgs5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ainjc"]
-atlas = ExtResource("1_tx5wa")
+atlas = ExtResource("1_767dv")
 region = Rect2(0, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_60ddj"]
-atlas = ExtResource("1_tx5wa")
+atlas = ExtResource("1_767dv")
 region = Rect2(128, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5e717"]
-atlas = ExtResource("1_tx5wa")
+atlas = ExtResource("1_767dv")
 region = Rect2(256, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mtlf8"]
-atlas = ExtResource("1_tx5wa")
+atlas = ExtResource("1_767dv")
 region = Rect2(384, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nqnrp"]
-atlas = ExtResource("1_tx5wa")
+atlas = ExtResource("1_767dv")
 region = Rect2(512, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5a7ho"]
-atlas = ExtResource("1_tx5wa")
+atlas = ExtResource("1_767dv")
 region = Rect2(640, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a0dpv"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(0, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eun7n"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(128, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a7t2b"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(256, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nfbbu"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(384, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_egw72"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(512, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h6eqq"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(640, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7c08c"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(768, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ww5j8"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(896, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yxnix"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(1024, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1ihil"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(1152, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l8004"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(1280, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hpm0e"]
-atlas = ExtResource("3_5e717")
+atlas = ExtResource("2_4b2ik")
 region = Rect2(1408, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ssogg"]
-atlas = ExtResource("2_60ddj")
+atlas = ExtResource("3_qbcxa")
 region = Rect2(0, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_akot6"]
-atlas = ExtResource("2_60ddj")
+atlas = ExtResource("3_qbcxa")
 region = Rect2(128, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rjuq2"]
-atlas = ExtResource("2_60ddj")
+atlas = ExtResource("3_qbcxa")
 region = Rect2(256, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c1457"]
-atlas = ExtResource("2_60ddj")
+atlas = ExtResource("3_qbcxa")
 region = Rect2(384, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_64bn7"]
-atlas = ExtResource("2_60ddj")
+atlas = ExtResource("3_qbcxa")
 region = Rect2(512, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_357se"]
-atlas = ExtResource("2_60ddj")
+atlas = ExtResource("3_qbcxa")
 region = Rect2(640, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hppi5"]
-atlas = ExtResource("2_60ddj")
+atlas = ExtResource("3_qbcxa")
 region = Rect2(768, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_poqtw"]
-atlas = ExtResource("2_60ddj")
+atlas = ExtResource("3_qbcxa")
 region = Rect2(896, 0, 128, 128)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_ssogg"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_4iphx"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -175,7 +174,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"jump",
-"speed": 6.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -207,33 +206,31 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="FontVariation" id="FontVariation_didp7"]
+base_font = ExtResource("5_ncgs5")
+baseline_offset = 1.375
+
 [node name="Node2D" type="Node2D"]
 
-[node name="samurai" type="CharacterBody2D" parent="."]
-position = Vector2(6, -5)
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="samurai"]
-position = Vector2(950, 485)
-scale = Vector2(4.70898, 4.29102)
-sprite_frames = SubResource("SpriteFrames_ssogg")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(136, 953)
+scale = Vector2(2.09668, 1.96869)
+sprite_frames = SubResource("SpriteFrames_4iphx")
 animation = &"idle"
-frame_progress = 0.212989
-script = ExtResource("4_mtlf8")
+script = ExtResource("4_cdjm1")
 
-[node name="Button" type="Button" parent="."]
-offset_left = 799.0
-offset_top = 858.0
-offset_right = 1114.0
-offset_bottom = 991.0
-theme_override_colors/font_hover_pressed_color = Color(0.272047, 0.272047, 0.272047, 1)
-theme_override_fonts/font = ExtResource("5_nqnrp")
-theme_override_font_sizes/font_size = 80
-action_mode = 0
-text = "PLAY"
-autowrap_mode = 1
-text_direction = 1
-language = "English"
-script = ExtResource("5_mtlf8")
-
-[connection signal="pressed" from="Button" to="samurai/AnimatedSprite2D" method="_on_button_pressed"]
-[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 2.0
+offset_top = 16.0
+offset_right = 1931.0
+offset_bottom = 673.0
+theme_override_fonts/normal_font = SubResource("FontVariation_didp7")
+theme_override_font_sizes/normal_font_size = 50
+text = "Welcome, Dear Samurai! 
+To move right press right arrow
+To move left press left arrow
+To jump press up arrow."
+scroll_active = false
+autowrap_mode = 0
+tab_size = 10
+justification_flags = 1
