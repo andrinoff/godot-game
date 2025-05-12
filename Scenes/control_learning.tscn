@@ -31,8 +31,8 @@ justification_flags = 1
 [node name="Player" parent="." instance=ExtResource("2_03uha")]
 position = Vector2(141, 885)
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(963, 558)
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-3, 17)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(965, 1099)

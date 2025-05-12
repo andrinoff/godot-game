@@ -1,9 +1,4 @@
 res://Scenes/start_screen.tscn
-res://Scripts/start_screen/samurai_start.gd
-res://Scenes/level1.tscn
-res://Scripts/Controls/samurai.gd
-res://Scenes/contorl_learning.tscn
-res://Scripts/start_screen/button.gd
 res://Scenes/control_learning.tscn
 res://Scenes/player.tscn
 res://Scenes/game.tscn
