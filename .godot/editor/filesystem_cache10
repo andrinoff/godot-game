@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746959048
+::res://::1747040561
 icon.svg::CompressedTexture2D/CompressedTexture2D::8482224345807885929::1746885986::1746885992::1::::<><><>0<>0<>ec7519ee2cc2ea2c274b3913f9ebf7ec<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile/TextFile::-1::1746996361::0::1::::<><><>0<>0<><>::
 ::res://addons/::1746892060
 ::res://addons/lua-gdextension/::1746892060
 CHANGELOG.md::TextFile/TextFile::-1::1746892020::0::1::::<><><>0<>0<><>::
@@ -13,14 +14,22 @@ plugin.cfg::TextFile/TextFile::-1::1746892020::0::1::::<><><>0<>0<><>::
 plugin.gd::GDScript/GDScript::6349614624740791647::1746892020::0::1::::<>EditorPlugin<><>0<>1<><>::
 README.md::TextFile/TextFile::-1::1746892020::0::1::::<><><>0<>0<><>::
 ::res://addons/lua-gdextension/build/::1746892060
-::res://Scenes/::1746911161
-start_screen.tscn::PackedScene::5833266236491380236::1746911156::0::1::::<><><>0<>0<><>::uid://cjya6sd5ppt5k::::res://Sprites/Samurai/Idle.png<>uid://dc7r6gq3x0kvy::::res://Sprites/Samurai/Walk.png<>uid://bv73ndnwypx71::::res://Sprites/Samurai/Jump.png<>uid://cvo1b3btshuiy::::res://Scripts/start_screen/samurai.gd
-::res://Scripts/::1746911103
-samurai.lua::LuaScript::8855850134912277626::1746892178::0::1::::<><><>0<>0<><>::
-::res://Scripts/start_screen/::1746911103
-animation.gd::GDScript::946688689656352799::1746909305::0::1::::<>RefCounted<><>0<>0<><>::
-samurai.gd::GDScript::6277290273033786096::1746911100::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
-::res://Sprites/::1746891014
+::res://Fonts/::1746989472
+ZENLITH Trial.otf::FontFile/FontFile::9110618048462053967::1746989463::1746989467::1::::<><><>0<>0<>d936ab64703d934c6218e410a30599de<>res://.godot/imported/ZENLITH Trial.otf-3709d11843681276fa82554fd439668e.fontdata::
+::res://Scenes/::1747040541
+control_learning.tscn::PackedScene::7413451470240051463::1747040541::0::1::::<><><>0<>0<><>::uid://cjwrb58vhgpv4::::res://Scenes/player.tscn<>uid://d22isvxw7qo2b::::res://Fonts/ZENLITH Trial.otf
+game.tscn::PackedScene::1937515996693925192::1747040541::0::1::::<><><>0<>0<><>::uid://cjwrb58vhgpv4::::res://Scenes/player.tscn<>uid://b2tjy7x4vh7cn::::res://Sprites/Tiles/goodly-2x.png
+player.tscn::PackedScene::5450992873031545635::1747040541::0::1::::<><><>0<>0<><>::uid://cjya6sd5ppt5k::::res://Sprites/Samurai/Idle.png<>uid://bv73ndnwypx71::::res://Sprites/Samurai/Jump.png<>uid://dc7r6gq3x0kvy::::res://Sprites/Samurai/Walk.png<>uid://dggxa8pjkueey::::res://Scripts/Controls/samurai.gd
+start_screen.tscn::PackedScene::5833266236491380236::1747040541::0::1::::<><><>0<>0<><>::uid://d3xsfe2a2d64f::::res://Scripts/start_screen/button2.gd<>uid://cjwrb58vhgpv4::::res://Scenes/player.tscn<>uid://f8o1ucyq4qh8::::res://Scripts/start_screen/button.gd<>uid://d22isvxw7qo2b::::res://Fonts/ZENLITH Trial.otf
+::res://Scripts/::1747038017
+::res://Scripts/Controls/::1747006491
+samurai.gd::GDScript::7594179627131178832::1747006486::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+::res://Scripts/start_screen/::1747038017
+button2.gd::GDScript::9173132447966261219::1747038011::0::1::::<>Button<><>0<>0<><>::
+button.gd::GDScript::419966207283994167::1747005781::0::1::::<>Button<><>0<>0<><>::
+samurai.gd::GDScript/GDScript::4542658864074630993::1746989675::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+samurai_start.gd::GDScript::4144834710954165571::1746989803::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+::res://Sprites/::1747005290
 COUPON.png::CompressedTexture2D/CompressedTexture2D::2651973145893022232::1686647666::1746891003::1::::<><><>0<>0<>d16916fb75e008e8b3d22b6feda56a84<>res://.godot/imported/COUPON.png-c745da73506ec9da829a6f9025e8bad7.ctex::
 Font.txt::TextFile/TextFile::-1::1664542180::0::1::::<><><>0<>0<><>::
 Licens.txt::TextFile/TextFile::-1::1664542108::0::1::::<><><>0<>0<><>::
@@ -58,3 +67,5 @@ Jump.png::CompressedTexture2D/CompressedTexture2D::7505039793517873661::16938444
 Run.png::CompressedTexture2D/CompressedTexture2D::8722538851345830593::1693844360::1746891003::1::::<><><>0<>0<>87dd81ba26b82b1b0a937e2224793d10<>res://.godot/imported/Run.png-1a0b397b06e719f8a5d50d4fdc494dab.ctex::
 Shield.png::CompressedTexture2D/CompressedTexture2D::7980036232257043678::1693844600::1746891003::1::::<><><>0<>0<>0c1abe105538ef92b384c31cb24c87ff<>res://.godot/imported/Shield.png-a9bb26016cc56f0a5a028f42cfc0ad8c.ctex::
 Walk.png::CompressedTexture2D/CompressedTexture2D::8730326084870584468::1693844312::1746891003::1::::<><><>0<>0<>0a1eb663d4d9152dc79a7fd2d912aafe<>res://.godot/imported/Walk.png-37cda7c26196ddcf5e9f6e362a7c295d.ctex::
+::res://Sprites/Tiles/::1747005290
+goodly-2x.png::CompressedTexture2D/CompressedTexture2D::4321333668859435577::1747005204::1747005285::1::::<><><>0<>0<>e9f86a6328da6de5a474497de7ab13c6<>res://.godot/imported/goodly-2x.png-fc8f465d995e445ca9588222a9fe0b3e.ctex::
