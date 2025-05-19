@@ -18,4 +18,3 @@ func _process(_delta) -> void:
 		$".".play("walk")
 	if Input.is_action_just_released("ui_right"):
 		$".".play("idle")
-

@@ -1,4 +1,6 @@
+res://Scenes/player.tscn
 res://Scenes/start_screen.tscn
 res://Scenes/control_learning.tscn
-res://Scenes/player.tscn
 res://Scenes/game.tscn
+res://Scripts/Controls/samurai.gd
+res://Scripts/Controls/controls.gd

@@ -54,13 +54,13 @@ position = Vector2(522, 71)
 position = Vector2(-364, -3)
 shape = SubResource("RectangleShape2D_60ddj")
 
-[node name="Player" parent="." instance=ExtResource("3_60ddj")]
-position = Vector2(958, 687)
-
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(2, 538)
 anchor_mode = 0
 limit_bottom = 1080
+
+[node name="Player" parent="." instance=ExtResource("3_60ddj")]
+position = Vector2(806, 781)
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
 [connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
